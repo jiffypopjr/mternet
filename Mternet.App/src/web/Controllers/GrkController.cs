@@ -13,7 +13,16 @@ namespace web.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
-            return View();
+            var items = new List<string>
+            {
+                "../grk/nt101-cards.zip",
+                "../grk/nt102-cards.zip"
+
+            };
+
+            return View(items);
         }
+
+       
     }
 }

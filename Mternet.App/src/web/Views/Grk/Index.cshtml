@@ -1,6 +1,13 @@
-﻿@{
+﻿@model List<string> 
+@{
     ViewData["Title"] = "Greek";
 }
+
 <h2>@ViewData["Title"].</h2>
-<h3>@ViewData["Message"]</h3>
+
+@foreach (var s in Model)
+{
+    <a href="@s">@s</a>
+    <br/>
+}
 

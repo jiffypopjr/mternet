@@ -22,7 +22,7 @@ namespace web.Controllers
         
         public IActionResult Error()
         {
-            return View()
+            return View();
         }
     }
 }
