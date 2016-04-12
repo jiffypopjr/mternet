@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1CCAA6EB-301D-4BC8-8D02-0D34CCCAB760}"
 	ProjectSection(SolutionItems) = preProject
 		global.json = global.json
+		..\scripts\PublishAspNet5Website.ps1 = ..\scripts\PublishAspNet5Website.ps1
 	EndProjectSection
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "web", "src\web\web.xproj", "{96EDF706-1780-46DC-BCA1-29294DAC11ED}"
