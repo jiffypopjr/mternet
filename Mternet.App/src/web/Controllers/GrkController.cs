@@ -15,8 +15,7 @@ namespace web.Controllers
         {
             var items = new List<string>
             {
-                "../grk/nt101-cards.zip",
-                "../grk/nt102-cards.zip"
+                "https://drive.google.com/folderview?id=0B2XjVl8PRUcDY3ZZUUotWWVEQ28&usp=sharing"
 
             };
 
